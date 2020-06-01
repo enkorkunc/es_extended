@@ -24,6 +24,7 @@ MySQL.ready(function()
 			ESX.Items[v.name] = {
 				label = v.label,
 				weight = v.weight,
+				max = v.max,
 				rare = v.rare,
 				canRemove = v.can_remove
 			}
